@@ -1,12 +1,11 @@
-### Laravel ready to go
+### Laravel Ideal Employee Award Project
 - laravel 9.42.2
-- nova 4.10.0 (Silver Surfer)
-- blueprint supports nova
+- nova 4.19.0 (Silver Surfer)
 
 ### Installation:
 Composer command:
 ```shell
-composer create-project mphpmaster/laravel-nova-blueprint-permission
+composer create-project mphpmaster/ideal-employee-award
 ```
 
 ### Config:
