@@ -1,0 +1,34 @@
+{
+    "name": "mphpmaster/cache-card",
+    "version": "1.0.0",
+    "description": "A Laravel Nova Cache Card.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "cache",
+        "card"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": ">=9",
+        "laravel/nova": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MPhpMaster\\CacheCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MPhpMaster\\CacheCard\\Providers\\CacheCardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
